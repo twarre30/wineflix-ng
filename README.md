@@ -1,27 +1,115 @@
-# AngularTemplate
+# WineFlix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+![Wineflix demo](./wineflix.jpg)
 
-## Development server
+Refactor the HTML and CSS in `src/app/app.component.html` to use components.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Your solution should have over 10 components
+* Replace all hard-coded data with the static data below
+* Deploy your app to a public URL
 
-## Code scaffolding
+## Data
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```js
+const wines = [{
+  id: 1,
+  imageUrl: '/red-wine.jpg',
+  isNew: true,
+  label: 'Wine',
+  isFinished: true,
+}, {
+  id: 2,
+  imageUrl: '/red-wine.jpg',
+  label: 'Wine',
+  isFinished: true,
+}, {
+  id: 3,
+  imageUrl: '/red-wine.jpg',
+  label: 'Wine',
+  isNew: true,
+  isFinished: true,
+}, {
+  id: 4,
+  imageUrl: '/red-wine.jpg',
+  label: 'Wine',
+  isFinished: true,
+}, {
+  id: 5,
+  imageUrl: '/red-wine.jpg',
+  label: 'Wine',
+  isNew: true,
+  isFinished: true,
+}, {
+  id: 6,
+  imageUrl: '/red-wine.jpg',
+  label: 'Wine',
+  isFinished: true,
+}, {
+  id: 7,
+  imageUrl: '/red-wine.jpg',
+  label: 'Wine',
+  isFinished: true,
+}, {
+  id: 8,
+  imageUrl: '/red-wine.jpg',
+  label: 'Wine',
+  isFinished: true,
+}, {
+  id: 1,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 2,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 3,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 4,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 5,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 6,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 7,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}, {
+  id: 8,
+  imageUrl: '/red-wine.jpg',
+  progress: 22,
+  label: 'Wine',
+}];
+```
 
-## Build
+```js
+const heroContent = {
+  title: 'Rex Goliath',
+  subtitle: 'His Royal Majesty is back.',
+  imageUrl: '/rex-goliath-logo.png',
+  description: `America's most unhinged rooster is out of retirement, and this time? He's mad
+  as hell.  Experience the unapologetic flavor burst of Rex Goliath.`,
+}
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Rubric
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* [ ] - Deployed
+* [ ] - Has over 10 meaningful components
+* [ ] - No hard-coded data
+* [ ] - Data is passed through the component hierarchy
