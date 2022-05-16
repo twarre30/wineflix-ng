@@ -8,6 +8,10 @@ import { LogoComponent } from './logo/logo.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { UserAvatarComponent } from './user-avatar/user-avatar.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FirstButtonComponent } from './first-button/first-button.component';
+import { SecondButtonComponent } from './second-button/second-button.component';
+import { HeroContentComponent } from './hero-content/hero-content.component';
+import { HeroControlsComponent } from './hero-controls/hero-controls.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     LogoComponent,
     NavigationComponent,
     UserAvatarComponent,
-    NavBarComponent
+    NavBarComponent,
+    FirstButtonComponent,
+    SecondButtonComponent,
+    HeroContentComponent,
+    HeroControlsComponent
   ],
   imports: [
     BrowserModule,

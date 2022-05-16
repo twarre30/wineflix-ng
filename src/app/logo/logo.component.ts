@@ -10,7 +10,5 @@ export class LogoComponent {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }
