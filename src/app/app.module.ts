@@ -12,6 +12,8 @@ import { FirstButtonComponent } from './first-button/first-button.component';
 import { SecondButtonComponent } from './second-button/second-button.component';
 import { HeroContentComponent } from './hero-content/hero-content.component';
 import { HeroControlsComponent } from './hero-controls/hero-controls.component';
+import { DrinkAgainComponent } from './drink-again/drink-again.component';
+import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { HeroControlsComponent } from './hero-controls/hero-controls.component';
     FirstButtonComponent,
     SecondButtonComponent,
     HeroContentComponent,
-    HeroControlsComponent
+    HeroControlsComponent,
+    DrinkAgainComponent,
+    KeepDrinkingComponent
   ],
   imports: [
     BrowserModule,
