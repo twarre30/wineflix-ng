@@ -1,4 +1,4 @@
-import { Component} from '@angular/core';
+import { Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-keep-drinking',
@@ -6,6 +6,7 @@ import { Component} from '@angular/core';
   styleUrls: ['./keep-drinking.component.css']
 })
 export class KeepDrinkingComponent {
+  @Input() isFinished?= true;
 
   constructor() { }
 

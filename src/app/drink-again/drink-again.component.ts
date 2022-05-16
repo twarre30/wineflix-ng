@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-drink-again',
@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./drink-again.component.css']
 })
 export class DrinkAgainComponent {
-
+  @Input() isNew?= false;
 
   constructor() { }
 
