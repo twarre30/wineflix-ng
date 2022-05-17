@@ -1,6 +1,6 @@
 # Deployed Website
 
-!(https://wineflix-tw.netlify.app/)
+Link [Deployed Site](https://wineflix-tw.netlify.app/)
 
 # WineFlix
 
