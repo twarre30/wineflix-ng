@@ -10,7 +10,7 @@ import { wines } from '../data';
 export class WineListingComponent{
   wines = wines;
 
-  wineLists = this.wines
+  wineLists = this.wines;
 
 
 

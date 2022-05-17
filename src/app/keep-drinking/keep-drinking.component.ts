@@ -8,7 +8,7 @@ import { wines } from '../data';
 })
 export class KeepDrinkingComponent {
   wine = wines;
-  @Input() isFinished?= true;
+  @Input() isFinished?: boolean;
   @Input() imageUrl = "";
   @Input() label = "";
 

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { heroContent } from '../data';
 
 @Component({
   selector: 'app-hero-controls',
@@ -6,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero-controls.component.css']
 })
 export class HeroControlsComponent {
+  heroContent = heroContent;
 
-  constructor() { }
-
+  contents = this.heroContent;
 
 }

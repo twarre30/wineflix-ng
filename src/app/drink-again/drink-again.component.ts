@@ -6,10 +6,10 @@ import { wines } from '../data';
   templateUrl: './drink-again.component.html',
   styleUrls: ['./drink-again.component.css']
 })
-  
+
 export class DrinkAgainComponent {
   wine = wines;
-  @Input() isNew?= false;
+  @Input() isNew?: boolean;
   @Input() imageUrl = "";
   @Input() label = "";
 }

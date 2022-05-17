@@ -8,6 +8,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
 })
 export class FirstButtonComponent {
   faPlay = faPlay;
+  title = "Drink";
 
 
   constructor() { }
