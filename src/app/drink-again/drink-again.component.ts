@@ -12,5 +12,7 @@ export class DrinkAgainComponent {
   @Input() isNew?: boolean;
   @Input() imageUrl = "";
   @Input() label = "";
+
+  new = "New";
 }
 
