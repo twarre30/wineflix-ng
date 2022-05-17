@@ -12,6 +12,7 @@ export class WineListingComponent{
 
   wineLists = this.wines;
 
-
+  drink = "Drink Again";
+  keep = "Keep Drinking";
 
 }

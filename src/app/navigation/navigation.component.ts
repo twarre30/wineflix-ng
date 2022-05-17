@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent {
-
-  constructor() { }
-
-
+  home = "Home";
+  reds = "Reds";
+  whites = "Whites";
+  blends = "Blends";
+  linkUrl = "https://developer.mozilla.org";
 
 }
