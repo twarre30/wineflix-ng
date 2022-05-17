@@ -13,4 +13,6 @@ export class HeroContentComponent  {
   @Input() imageUrl = "";
   @Input() description = "";
 
+  wineImage = "/assets/wine-hero.webp";
+  wineTitle = "Wine bottles";
 }
