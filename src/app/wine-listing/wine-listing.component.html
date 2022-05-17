@@ -1,58 +1,24 @@
 <section class="category">
   <h2>Drink Again</h2>
   <ul>
-    <li>
-      <app-drink-again [isNew]="true"></app-drink-again>
-    </li>
-    <li>
-      <app-drink-again></app-drink-again>
-    </li>
-    <li>
-      <app-drink-again [isNew]="true"></app-drink-again>
-    </li>
-    <li>
-      <app-drink-again></app-drink-again>
-    </li>
-    <li>
-      <app-drink-again [isNew]="true"></app-drink-again>
-    </li>
-    <li>
-      <app-drink-again></app-drink-again>
-    </li>
-    <li>
-      <app-drink-again></app-drink-again>
-    </li>
-    <li>
-      <app-drink-again></app-drink-again>
+    <li *ngFor="let wineList of wineLists">
+      <app-drink-again
+        [imageUrl]="wineList.imageUrl"
+        [label]="wineList.label"
+        [isNew]="wineList.isNew"
+      ></app-drink-again>
     </li>
   </ul>
 </section>
 <section class="category">
   <h2>Keep Drinking</h2>
   <ul>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
-    </li>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
-    </li>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
-    </li>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
-    </li>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
-    </li>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
-    </li>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
-    </li>
-    <li>
-      <app-keep-drinking></app-keep-drinking>
+    <li *ngFor="let wineList of wineLists">
+      <app-keep-drinking
+        [imageUrl]="wineList.imageUrl"
+        [label]="wineList.label"
+        [isFinished]="wineList.isFinished"
+      ></app-keep-drinking>
     </li>
   </ul>
 </section>

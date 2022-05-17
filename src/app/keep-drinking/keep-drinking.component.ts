@@ -1,4 +1,5 @@
-import { Component, Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { wines } from '../data';
 
 @Component({
   selector: 'app-keep-drinking',
@@ -6,8 +7,9 @@ import { Component, Input} from '@angular/core';
   styleUrls: ['./keep-drinking.component.css']
 })
 export class KeepDrinkingComponent {
+  wine = wines;
   @Input() isFinished?= true;
-
-  constructor() { }
+  @Input() imageUrl = "";
+  @Input() label = "";
 
 }
